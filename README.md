@@ -15,6 +15,7 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #7 - Inline Event Handlers](https://youtu.be/VWOpVxIkZJs).
 - [Svelte Tutorial for Beginners #8 - Conditionals](https://youtu.be/9PfCZFqYsYA).
 - [Svelte Tutorial for Beginners #9 - Components](https://youtu.be/rkwKpULfWZA).
+- [Svelte Tutorial for Beginners #10 - CSS & Conditional Styles](https://youtu.be/AAPu__4qSlY).
 
 ## Notes
 
@@ -27,3 +28,4 @@ My gaming profiles across different platforms.
 - `$: console.log(colorVariable);` is an example of a reactive statement. Use `$: {...}` for a code block.
 - `{#each array as arrayElement (arrayElement.key)}...{/each}` (`key` is important if you need to manipulate the data). This block can also have an `{:else}` clause, which is rendered if `array` is empty.
 - `<button on:click={() => handleClick(object.id)}>Delete</button>` or `<button on:click={(event) => handleClick(event, object.id)}>Delete</button>` (inline event handler). This is useful for deleting an element from an array by its identifier within an each block (assuming there is a button for each element), for example. In other words, this is useful if the handler function needs to take arguments in addition to `event`.
+- `crimson` instead of `red` ([CSS color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)).
