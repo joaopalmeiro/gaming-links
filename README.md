@@ -11,6 +11,7 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #5 - Reactive Values](https://youtu.be/QJJjXRIg7kI).
 - [Svelte Tutorial for Beginners #6 - Loops](https://youtu.be/sGmSSULKJwE).
 - [Svelte Tutorial for Beginners #7 - Inline Event Handlers](https://youtu.be/VWOpVxIkZJs).
+- [Svelte Tutorial for Beginners #8 - Conditionals](https://youtu.be/9PfCZFqYsYA).
 
 ## Notes
 
