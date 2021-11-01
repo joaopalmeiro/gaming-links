@@ -19,6 +19,8 @@ My gaming profiles across different platforms.
 
 ## Notes
 
+> Svelte
+
 - Svelte = compiler (not a framework) + reactivity + components.
 - Svelte compiles the code for production at build time into a (single) JavaScript bundle. So, no extra scripts/libraries are shipped to production. The Svelte library is not deployed as in React and Vue.
 - `App.svelte`: root component.
@@ -28,4 +30,7 @@ My gaming profiles across different platforms.
 - `$: console.log(colorVariable);` is an example of a reactive statement. Use `$: {...}` for a code block.
 - `{#each array as arrayElement (arrayElement.key)}...{/each}` (`key` is important if you need to manipulate the data). This block can also have an `{:else}` clause, which is rendered if `array` is empty.
 - `<button on:click={() => handleClick(object.id)}>Delete</button>` or `<button on:click={(event) => handleClick(event, object.id)}>Delete</button>` (inline event handler). This is useful for deleting an element from an array by its identifier within an each block (assuming there is a button for each element), for example. In other words, this is useful if the handler function needs to take arguments in addition to `event`.
-- `crimson` instead of `red` ([CSS color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)).
+
+> CSS
+
+- `crimson` instead of `red` ([color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)).
