@@ -4,6 +4,8 @@ My gaming profiles across different platforms.
 
 ## References
 
+> [The Net Ninja](https://www.youtube.com/c/TheNetNinja) (Shaun Pelling)
+
 - [Svelte Tutorial for Beginners #1 - Introduction](https://youtu.be/zojEMeQGGHs).
 - [Svelte Tutorial for Beginners #2 - Setting up a Svelte App](https://youtu.be/lnpdn2rE2N8).
 - [Svelte Tutorial for Beginners #3 - Svelte Basics](https://youtu.be/TanFofZBvNI).
@@ -12,10 +14,11 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #6 - Loops](https://youtu.be/sGmSSULKJwE).
 - [Svelte Tutorial for Beginners #7 - Inline Event Handlers](https://youtu.be/VWOpVxIkZJs).
 - [Svelte Tutorial for Beginners #8 - Conditionals](https://youtu.be/9PfCZFqYsYA).
+- [Svelte Tutorial for Beginners #9 - Components](https://youtu.be/rkwKpULfWZA).
 
 ## Notes
 
-- Svelte = compiler (not a framework) + reactivity.
+- Svelte = compiler (not a framework) + reactivity + components.
 - Svelte compiles the code for production at build time into a (single) JavaScript bundle. So, no extra scripts/libraries are shipped to production. The Svelte library is not deployed as in React and Vue.
 - `App.svelte`: root component.
 - Handler functions can take the `event` object.
