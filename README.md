@@ -19,6 +19,7 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #11 - Props](https://youtu.be/Y1McRGLkxQc).
 - [Svelte Tutorial for Beginners #12 - Event Forwarding](https://youtu.be/SaMils0yx7s).
 - [Svelte Tutorial for Beginners #13 - Event Modifiers](https://youtu.be/RrNC2hizXXI).
+- [Svelte Tutorial for Beginners #14 - Slots](https://youtu.be/WUXalRPfP1A).
 
 ## Notes
 
