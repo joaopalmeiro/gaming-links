@@ -20,6 +20,8 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #12 - Event Forwarding](https://youtu.be/SaMils0yx7s).
 - [Svelte Tutorial for Beginners #13 - Event Modifiers](https://youtu.be/RrNC2hizXXI).
 - [Svelte Tutorial for Beginners #14 - Slots](https://youtu.be/WUXalRPfP1A).
+- [Svelte Tutorial for Beginners #15 - Forms (part 1)](https://youtu.be/FB_am3ZPY7I).
+- [Svelte Tutorial for Beginners #16 - forms (part 2)](https://youtu.be/tkBgoKpU6Tk).
 
 ## Notes
 
@@ -39,6 +41,8 @@ My gaming profiles across different platforms.
     - `App.svelte` file: `<Modal ... on:click={toggleModal} />` and `<button on:click={toggleModal}>...</button>`.
     - `Modal.svelte` file: `<div ... on:click>...</div>`.
   - The `self` event modifier (e.g., `on:click|self`) is useful for a modal since the handler is only triggered if `event.target` is the element itself. In practice, this allows the modal to be closed only if there is a click outside the message container (a child `<div>`), on the part that is faded, for example.
+- In Svelte, when we bind to a number input (e.g., `<input type="number" bind:value={numVariable}>`), the [input value is coerced](https://svelte.dev/docs#bind_element_property). In this way, the associated variable is a number, not a string.
+- `let arrayVariable = [];` + `bind:group={arrayVariable}` for radio and checkbox inputs ([example](https://svelte.dev/docs#bind_group)).
 
 > CSS
 
