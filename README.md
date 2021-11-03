@@ -22,6 +22,7 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #14 - Slots](https://youtu.be/WUXalRPfP1A).
 - [Svelte Tutorial for Beginners #15 - Forms (part 1)](https://youtu.be/FB_am3ZPY7I).
 - [Svelte Tutorial for Beginners #16 - forms (part 2)](https://youtu.be/tkBgoKpU6Tk).
+- [Svelte Tutorial for Beginners #17 - Dispatching Custom Events](https://youtu.be/yCkYm4zze8I).
 
 ## Notes
 
@@ -43,6 +44,9 @@ My gaming profiles across different platforms.
   - The `self` event modifier (e.g., `on:click|self`) is useful for a modal since the handler is only triggered if `event.target` is the element itself. In practice, this allows the modal to be closed only if there is a click outside the message container (a child `<div>`), on the part that is faded, for example.
 - In Svelte, when we bind to a number input (e.g., `<input type="number" bind:value={numVariable}>`), the [input value is coerced](https://svelte.dev/docs#bind_element_property). In this way, the associated variable is a number, not a string.
 - `let arrayVariable = [];` + `bind:group={arrayVariable}` for radio and checkbox inputs ([example](https://svelte.dev/docs#bind_group)).
+- Dispatching custom events:
+  - Event forwarding is for events, not data (use [`createEventDispatcher`](https://svelte.dev/docs#createEventDispatcher) instead).
+  - Events dispatched (custom event + data) from child components can be listened to in their parent (e.g., `<ChildComponent on:name={handlerFunction} />`). The data is available on the `detail` property of the event object.
 
 > CSS
 
