@@ -51,3 +51,9 @@ My gaming profiles across different platforms.
 > CSS
 
 - `crimson` instead of `red` ([color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)).
+
+> Misc
+
+- [Craft](https://www.craft.do/):
+  - Document/Markdown editor.
+  - [How to set (and delete) custom icon on Mac](https://www.craft.do/s/dhXngIMJLQu96b).
