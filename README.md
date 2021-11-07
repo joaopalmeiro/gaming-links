@@ -23,6 +23,8 @@ My gaming profiles across different platforms.
 - [Svelte Tutorial for Beginners #15 - Forms (part 1)](https://youtu.be/FB_am3ZPY7I).
 - [Svelte Tutorial for Beginners #16 - forms (part 2)](https://youtu.be/tkBgoKpU6Tk).
 - [Svelte Tutorial for Beginners #17 - Dispatching Custom Events](https://youtu.be/yCkYm4zze8I).
+- [Svelte Tutorial for Beginners #18 - Starting the Polls Project](https://youtu.be/f0v5WcrU_vM).
+- [Svelte Tutorial for Beginners #19 - Header & Footer Components](https://youtu.be/xwiER0u9YS0).
 
 ## Notes
 
@@ -51,6 +53,7 @@ My gaming profiles across different platforms.
 > CSS
 
 - `crimson` instead of `red` ([color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)).
+- `main { max-width: 960px; margin: 40px auto; }`.
 
 > Misc
 
